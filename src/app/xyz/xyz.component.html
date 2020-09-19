@@ -1,0 +1,13 @@
+<p>xyz works!</p>
+<p>
+    my id = {{id}} and {{'Name is'}} {{ fiestMethod() }}
+</p>
+<input id='imp' (input)="GetInputData($event)" >
+
+<br/>
+<br/>
+
+<input [(ngModel)]="Inpudata" >
+
+<p [ngStyle]="{backgroundColor: getStyle()}" > {{Inpudata}}</p>
+<p [ngClass]="{colo}" > {{Inpudata}}</p>
